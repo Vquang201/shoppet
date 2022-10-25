@@ -1,0 +1,10 @@
+.btn-price {
+    padding: 4px 6px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.sort-active {
+    background-color: black;
+    color: #fff;
+}

@@ -1,0 +1,60 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.home-header {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 1.5s linear 1, blink 0.75s linear infinite;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.home-img {
+    height: 50vh;
+    animation: img 2s ease-in-out 1, blink 0.75s linear infinite;
+}
+
+/* @keyframes img {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        htransform: translateX(50%);
+    }
+} */
+
+/*Tablet*/
+@media (min-width : 46.25em) and (max-width :64em){
+    .flex {
+        overflow: hidden;
+    }
+
+}
+
+/*Moblie*/
+@media (max-width : 46.1875em){
+    .flex {
+        overflow: hidden;
+    }
+    .wrap-home {
+        margin: 0 14px;
+    }
+    .home-header {
+        font-size: 13px;
+    }
+    .home-img {
+        height: 30vh;
+        width: 100%;
+    }
+}
+

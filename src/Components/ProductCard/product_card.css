@@ -1,0 +1,52 @@
+
+.btn-product{
+    transform: translateX(59%);
+    color: white;
+    background-color: rgb(143,164,126);
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    
+}
+
+.btn-product-added {
+    transform: translateX(93%);
+    color: white;
+    background-color: rgb(143,164,126);
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    background-color: rgb(125, 123, 123);
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.product-img:hover {
+    /* transform: scale(1.3); */
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.product-name {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+}
+
+.product-descript {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+

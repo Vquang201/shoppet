@@ -1,0 +1,73 @@
+.navbar {
+    height: 60px; 
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 999
+}
+
+.bg-height {
+    background-color: rgb(143, 164, 126);
+    position: fixed;
+}
+
+.navbar-item {
+    color: black;
+    text-decoration: none;
+    padding: 16px;
+}
+
+
+
+.navbar-item::after {
+    content: '';
+    background-color: red;
+    height: 3px;
+    bottom: 8px;
+    display: block;
+    left: 0;
+    transition: all 0.6s ;
+    transform: scale(0);
+}
+
+.active::after {
+    content: '';
+    background-color: red;
+    height: 3px;
+    bottom: 8px;
+    display: block;
+    left: 0;
+    transition: all 0.6s ;
+    transform: scale(1);
+}
+
+.navbar-item:hover::after  {
+    cursor: pointer ;
+    transform: scale(1);
+}
+
+.navbar-count-product {
+    display: flex;
+    
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px;
+    line-height: 8px;
+    position: absolute ;
+    margin-left: 335px;
+    margin-top: 5px;
+
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width : 46.1875em){
+    .navbar {
+        font-size: 16px;
+        overflow: hidden;
+    }
+}

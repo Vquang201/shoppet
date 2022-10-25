@@ -1,0 +1,39 @@
+* body{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+.App {
+  padding:1rem 2rem 1rem 2rem;
+  min-height: 63vh;
+}
+
+@media (max-width : 46.1875em){
+  .App {
+      padding: 0;
+  }
+}
+
+
+body {
+  background-color: #ece3e2;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size:1.25rem;
+  letter-spacing: 0.15rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(143,164,126);
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: rgb(150, 184, 123);
+}

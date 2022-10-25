@@ -1,0 +1,38 @@
+.wrap-cart {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-img {
+    width: 120px;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px 1px gray;
+}
+
+.cart-flex {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.cart-price {
+    color: red;
+}
+
+.cart-empty {
+    padding: 18px;
+    font-size: 20px;
+}
+
+.wrap-title {
+  margin-left: 28px;
+  min-width: 170px;
+}
+
+.cart-total {
+    font-size: 18px;
+    border-bottom: 2px solid red;
+}
